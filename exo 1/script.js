@@ -1,4 +1,4 @@
 let identifiant = document.getElementById('liste-commissions');
 let newListe = document.createElement('li');
-newListe.innerHTML = "nesquik ";
+newListe.innerHTML = "2 nesquik ";
 identifiant.append(newListe);
