@@ -2,9 +2,14 @@
 
 <html lang="fr">
 <head>
-	<title>Essai HTML</title>
+	<title>Essaie HTML</title>
 	<meta charset="UTF-8">
 	<script src="script.js" async></script>
+	<style>
+		label, input, button {
+			display: block;
+		}
+	</style>
 </head>
 <body>
 
@@ -13,9 +18,8 @@
 		<li>un pack de lait</li>
 	</ul>
 
-	<form>
-		<textarea id="message"></textarea>
-	</form>
+	<label for="input1" id="label1"> Saisir ce dont vous avez besoins dans la liste de commisions.</label>
+	<input type="text" id="input1">
 	<button> Validation </button>
 
 </body>
