@@ -4,13 +4,17 @@ let newListe = document.createElement('li');
 
 let input = document.getElementById('input1');
 
-function ajouter() {
+input.addEventListener('click', function ajouter() {
     newListe.innerHTML = "2 nesquik";
     identifiant.append(newListe);
-}
-
-input.addEventListener('click', ajouter);
+});
 
 buttonDelete.addEventListener('click', function () {
+    newListe.style.display = "none";
+});
+
+/**
+ * buttonDelete.addEventListener('click', function () {
     input.removeEventListener('click', ajouter);
 });
+ */
